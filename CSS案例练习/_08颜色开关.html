@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .color-swatch {
+      width: 200px;
+      display: flex; /*弹性布局*/
+      flex-wrap: wrap; /*放不下时换行*/
+    }
+    .color-swatch-item {
+      border-radius: 100%; /*圆角*/
+      height: 25px;
+      width: 25px;
+      margin: 3px;
+      /*--color为自定属性  var函数可以获取自定义属性的值*/
+      background-color: var(--color);
+    }
+  </style>
+  <body>
+    <div class="color-swatch">
+      <div class="color-swatch-item" style="--color: red"></div>
+      <div class="color-swatch-item" style="--color: khaki"></div>
+      <div class="color-swatch-item" style="--color: blue"></div>
+      <div class="color-swatch-item" style="--color: green"></div>
+      <div class="color-swatch-item" style="--color: pink"></div>
+      <div class="color-swatch-item" style="--color: orange"></div>
+      <div class="color-swatch-item" style="--color: tomato"></div>
+      <div class="color-swatch-item" style="--color: skyblue"></div>
+      <div class="color-swatch-item" style="--color: tomato"></div>
+      <div class="color-swatch-item" style="--color: aqua"></div>
+      <div class="color-swatch-item" style="--color: blueviolet"></div>
+      <div class="color-swatch-item" style="--color: springgreen"></div>
+      <div class="color-swatch-item" style="--color: teal"></div>
+      ......
+    </div>
+  </body>
+</html>

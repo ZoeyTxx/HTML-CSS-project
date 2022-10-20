@@ -1,0 +1,28 @@
+<style>
+  body {
+    height: 2000px;
+  }
+  .banner {
+    width: 100%;
+    /*固定定位在浏览器左边的最底部*/
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /*横幅中内容水平垂直居中显示 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+  }
+  .banner-content {
+    /* 自适应缩放 相当于 flex-shrink: 1;flex-grow: 1; flex-basis: 0; */
+    flex: 1;
+    min-height: 100px; /*最小高度*/
+  }
+</style>
+<body>
+  <div class="banner">
+    <div class="banner-content">......</div>
+    <div class="close-button"></div>
+  </div>
+</body>
