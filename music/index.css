@@ -1,0 +1,133 @@
+body {
+  background-color: #fffbff;
+  min-width: 1406px;
+  font-family: PingFang SC;
+}
+
+#header {
+  height: 88px;
+  margin-bottom: 125px;
+}
+
+#header .logo {
+  margin-left: 100px;
+  margin-top: 24px;
+  float: left;
+}
+
+#header .nav-box {
+  margin-left: 92px;
+  float: left;
+}
+
+#header .nav-box li {
+  float: left;
+  margin-right: 72px;
+  padding-top: 34px;
+}
+
+#header .nav-box li:last-child {
+  margin-right: 0;
+}
+
+#header .btn-box {
+  width: 162px;
+  float: right;
+  padding-top: 30px;
+}
+
+#header .common-btn {
+  width: 73px;
+  height: 36px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 25px;
+  display: block;
+  line-height: 36px;
+  float: right;
+}
+
+#header .btn-box .login-btn {
+  margin-right: 16px;
+  border: 1px solid black;
+}
+
+#header .btn-box .register-btn {
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+}
+
+#banner {
+  position: relative;
+  margin: 0 auto;
+  width: 1406px;
+}
+
+#banner .logo {
+  margin-bottom: 24px;
+}
+
+#banner .title {
+  display: block;
+  margin-bottom: 32px;
+}
+
+#banner .desc {
+  margin-bottom: 41px;
+  width: 169px;
+  color: rgb(92, 93, 114);
+}
+
+#banner .link {
+  display: block;
+  width: 133px;
+  /* box-sizing: border-box; */
+  height: 48px;
+  background-color: blue;
+  color: white;
+  line-height: 48px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-bottom: 81px;
+  padding-left: 36px;
+  position: relative;
+}
+
+#banner .link:after {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url('./images/arrow_right.svg');
+  position: absolute;
+  right: 36px;
+  top: 12px;
+}
+
+#banner .up_icon {
+  display: block;
+  margin-bottom: 24px;
+}
+
+#banner .number {
+  font-size: 200px;
+  position: absolute;
+  bottom: -55px;
+  left: 112px;
+  color: #f5f2ff;
+}
+
+#banner .banner_small {
+  position: absolute;
+  bottom: 0;
+  left: 383px;
+  z-index: 2;
+}
+
+#banner .banner_big {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 900px;
+}
