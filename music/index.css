@@ -1,7 +1,21 @@
 body {
   background-color: #fffbff;
-  min-width: 1406px;
+  min-width: 1440px;
   font-family: PingFang SC;
+  padding-bottom: 179px;
+}
+
+.main-title {
+  font-size: 68px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.main-desc {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(92, 93, 114);
+  margin-bottom: 48px;
 }
 
 #header {
@@ -18,12 +32,13 @@ body {
 #header .nav-box {
   margin-left: 92px;
   float: left;
+  font-size: 20px;
+  padding-top: 34px;
 }
 
 #header .nav-box li {
   float: left;
   margin-right: 72px;
-  padding-top: 34px;
 }
 
 #header .nav-box li:last-child {
@@ -34,6 +49,7 @@ body {
   width: 162px;
   float: right;
   padding-top: 30px;
+  margin-right: 98px;
 }
 
 #header .common-btn {
@@ -60,8 +76,8 @@ body {
 
 #banner {
   position: relative;
-  margin: 0 auto;
-  width: 1406px;
+  margin: 0 auto 154px;
+  width: 1440px;
 }
 
 #banner .logo {
@@ -128,6 +144,217 @@ body {
 #banner .banner_big {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 34px;
   width: 900px;
+}
+
+#brand {
+  width: 1440px;
+  height: 10px;
+  margin: 0 auto 176px;
+  font-size: 20px;
+}
+
+#brand .item-box {
+  float: left;
+  margin-right: 88px;
+  align-items: center;
+}
+
+#brand .item-box img {
+  width: 48px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+#brand .item-box:last-child {
+  margin-right: 0;
+}
+
+#benefit {
+  width: 1440px;
+  margin: 0 auto 180px;
+}
+
+#benefit .main-title {
+  margin-bottom: 48px;
+}
+
+#benefit .list {
+  display: flex;
+}
+
+#benefit .list .item-box {
+  flex: 1;
+  width: 453px;
+  padding: 40px 48px;
+  margin-right: 40px;
+  height: 308px;
+  box-sizing: border-box;
+  background: rgba(53, 62, 251, 0.05);
+  border-radius: 20px;
+}
+
+#benefit .list .item-box:last-child {
+  margin-right: 0;
+}
+
+#benefit .list .item-box .top-title {
+  color: rgb(53, 62, 251);
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+#benefit .list .item-box .top-desc {
+  font-size: 48px;
+  font-weight: 800;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid rgb(228, 225, 236);
+}
+
+#benefit .list .item-box .top-desc span {
+  font-size: 14px;
+  margin-left: 16px;
+}
+
+#benefit .list .item-box .bottom-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+#benefit .list .item-box .bottom-desc {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+#scene {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+#scene .list {
+  display: flex;
+}
+
+#scene .list .item-box {
+  flex: 1;
+  width: 453px;
+  padding: 78px 0;
+  margin-right: 40px;
+  height: 308px;
+  text-align: center;
+  box-sizing: border-box;
+  background: rgba(53, 62, 251, 0.05);
+  border-radius: 20px;
+}
+
+#scene .list .item-box:last-child {
+  margin-right: 0;
+}
+
+#scene .list .item-box .title {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.mask {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: black;
+}
+
+#content {
+  margin: 0 auto 240px;
+}
+
+#service {
+  position: relative;
+}
+
+#service .list {
+  display: flex;
+  flex-wrap: wrap;
+  /* opacity: 0.5; */
+  /* background: radial-gradient(rgb(255, 255, 255), rgba(68, 68, 68)); */
+  /* background-image:linear-gradient(black 90%, transparent 100%); */
+}
+
+#service .list:before {
+  content: ' ';
+  position: absolute;
+  height: 100%;
+  width: 500px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  filter: blur(200px);
+}
+
+/* #service .mask { */
+/* position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; */
+/* background: radial-gradient(
+    rgb(251, 251, 251,1),rgb(0, 0, 0,)
+  ); */
+/* } */
+
+#service .list .item {
+  width: 20%;
+  height: 361px;
+  border: 1px solid rgb(207, 207, 207);
+  border-right: none;
+  border-top: none;
+  padding: 72px;
+  box-sizing: border-box;
+}
+
+#service .list .top-border {
+  border-top: 1px solid rgb(207, 207, 207);
+}
+
+#service .list .item .title {
+  font-size: 24px;
+  margin-bottom: 24px;
+  font-weight: 500px;
+}
+
+#service .list .item .desc {
+  line-height: 32px;
+}
+
+#service .list .item2 {
+  width: 40%;
+  padding-top: 18px;
+  text-align: center;
+  background-color: rgb(225, 224, 250);
+}
+
+#service .list .item2 .title {
+  font-size: 48px;
+  line-height: 72px;
+  margin-bottom: 24px;
+}
+
+#service .list .item2 .desc {
+  font-size: 24px;
+  color: rgb(92, 93, 114);
+  margin-bottom: 24px;
+}
+
+#service .list .item2 .circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(196, 196, 196);
+  margin: 0 auto;
 }
