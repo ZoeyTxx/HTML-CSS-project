@@ -2,7 +2,6 @@ body {
   background-color: #fffbff;
   min-width: 1440px;
   font-family: PingFang SC;
-  padding-bottom: 179px;
 }
 
 .main-title {
@@ -376,30 +375,71 @@ body {
   margin: 0 auto;
 }
 
-#bottom {
-  width: 1920px;
-  height: 422px;
-  margin-top: 180px;
-  margin: 0 auto 180px;
+#bottom  {
+  width: 100%;
+  padding-top: 80px;
   background: rgba(53, 62, 251, 0.08);
 }
 
-#bottom .image {
-  width: 60px;
-  height: 12px;
-  margin: 80px 360px;
+#bottom .inner{
+  width: 1092px;
+  height: 422px;
+  margin: 0 auto;
 }
 
-#bottom .item .title {
-  color: rgb(27, 27, 31);
+#bottom .inner .box {
+  float: left;
+}
+#bottom .inner .box1 {
+  width: 310px;
+  margin-right: 66px;
+}
+
+#bottom .inner .box1 .title {
   font-size: 20px;
   font-weight: 500;
-  line-height: 28px;
-  margin: -80px 360px;
+  margin-bottom: 34px;
 }
 
-#bottom .list .item-box .image01{
-  width: 160px;
-  height: 160px;
-  margin: 80px 736px;
+#bottom .inner .box1 .image {
+  width: 60px;
+  height: 12px;
+}
+
+#bottom .inner .box1 .desc {
+  margin-bottom: 8px;
+}
+
+#bottom .inner .box2 {
+  margin-right: 22px;
+}
+
+#bottom .inner .box2 .item {
+  float: left;
+  margin-right: 40px;
+}
+
+#bottom .inner .box2 .item img {
+  margin-bottom: 12px;
+}
+
+#bottom .inner .box2 .item p {
+  text-align: center;
+}
+
+#bottom .inner .box3  {
+  margin-right: 120px;
+}
+
+#bottom .inner .box3 .title{
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+#bottom .inner .box3 li {
+  margin-bottom: 12px;
+}
+
+#bottom .inner .box4 {
+  margin-right: 0;
 }
